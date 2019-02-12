@@ -21,7 +21,7 @@ def key_for_min_value(name_hash)
   name_a.each do |i|
       # If current value is lower than default, change value&key
       if {}.empty?
-        puts d_key
+         d_key
       elsif i[1] < d_value
         d_value = i[1]
         d_key = i[0]
