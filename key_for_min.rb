@@ -19,6 +19,7 @@ def key_for_min_value(name_hash)
 
   if name_hash.empty?
      return nil
+   end
   # Iterate new array
   name_a.each do |i|
       # If current value is lower than default, change value&key
