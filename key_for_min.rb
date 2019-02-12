@@ -22,7 +22,7 @@ def key_for_min_value(name_hash)
       # If current value is lower than default, change value&key
       if {}.empty?
          return nil
-      elsif i[1] < d_value
+      else i[1] < d_value
         d_value = i[1]
         d_key = i[0]
       end
